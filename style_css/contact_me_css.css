@@ -1,0 +1,52 @@
+/*Estructura para logo*/
+.logo{
+    padding: 0% 40% 0% 40%;
+}
+
+/*Estructura para la barra de navegación*/
+.Nav_bar_outer{
+    background-color: darkgrey;
+    
+}
+
+ul{
+    display: inline-flex;
+    list-style: none;
+    grid: 25px;
+}
+
+li{
+    border: 2px blue;
+    padding: 0px 160px 0px 160px;
+}
+
+/*Estructura para la recolección de contactos*/
+.Recov_data{
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+    background-color: rgb(209, 209, 209);
+}
+
+.Name_recov{
+    margin: 20px;
+    width: 300px;
+}
+
+.Email_recov{
+    margin: 20px;
+    width: 300px;
+}
+
+.Text_recov{
+    margin: 20px;
+    width: 300px;
+    height: 150px;
+    display: flex;
+}
+
+.send_btn{
+    background-color: darkgrey;
+    width: auto;
+    height: auto;
+}

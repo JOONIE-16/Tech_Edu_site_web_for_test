@@ -1,0 +1,21 @@
+/*Estructura para logo*/
+.logo{
+    padding: 0% 40% 0% 40%;
+}
+
+/*Estructura para la barra de navegación*/
+.Nav_bar_outer{
+    background-color: darkgrey;
+    
+}
+
+ul{
+    display: inline-flex;
+    list-style: none;
+    grid: 25px;  
+}
+
+li{
+    border: 2px blue;
+    padding: 0px 160px 0px 160px;
+}
