@@ -3,14 +3,17 @@
     padding: 0% 40% 0% 40%;
 }
 
+
+
 /*Estructura para la barra de navegación*/
 .Nav_bar_outer{
-    background-color: darkgrey;
-    
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
 }
 
 ul{
-    display: inline-flex;
+    display: flex;
     list-style: none;
     grid: 25px;  
 }
@@ -18,4 +21,41 @@ ul{
 li{
     border: 2px blue;
     padding: 0px 160px 0px 160px;
+    color: white;
+    display: flex;
+}
+
+a{
+    color: white;
+    display: flex;
+}
+
+/*Para tener un margen minimo con los articulos*/
+article{
+    padding: 0% 1% 0% 1%;
+}
+
+h1{
+    padding: 0% 1% 0% 1%;
+}
+
+h2{
+    padding: 0% 1% 0% 1%;
+}
+
+/*Para la imagen de fondo*/
+img{
+    padding: 0mm 30mm 0mm 30mm;
+}
+/*Para el footer*/
+
+footer{
+    padding: 2% 40% 2% 40%;
+    background-color: black;
+    margin:10px 0px 0px 10px;
+}
+
+.footer_text{
+    color: white;
+    display: flex;
 }

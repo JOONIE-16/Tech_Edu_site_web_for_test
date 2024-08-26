@@ -3,10 +3,12 @@
     padding: 0% 40% 0% 40%;
 }
 
+
+
 /*Estructura para la barra principal de navegación */
 .Nav_bar_outer{
-    background-color: darkgrey;
-    
+    background-color: black;
+    border-radius: 20px;
 }
 
 ul{
@@ -18,4 +20,33 @@ ul{
 li{
     border: 2px blue;
     padding: 0px 160px 0px 160px;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+/*Para tener un margen minimo con los articulos y titulos*/
+article{
+    padding: 0% 1% 0% 1%;
+}
+
+h1{
+    padding: 0% 1% 0% 1%;
+}
+.body_list{
+    color: black;
+}
+/*Para el footer*/
+
+footer{
+    padding: 2% 40% 2% 40%;
+    background-color: black;
+    margin:10px 0px 0px 10px;
+}
+
+.footer_text{
+    color: white;
+    display: flex;
 }

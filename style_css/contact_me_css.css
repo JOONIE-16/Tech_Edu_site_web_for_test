@@ -1,31 +1,58 @@
 /*Estructura para logo*/
 .logo{
     padding: 0% 40% 0% 40%;
+    
 }
+
+
 
 /*Estructura para la barra de navegación*/
 .Nav_bar_outer{
-    background-color: darkgrey;
-    
+    background-color: black;
+    border-radius: 20px;
 }
 
 ul{
     display: inline-flex;
     list-style: none;
     grid: 25px;
+    
 }
 
 li{
-    border: 2px blue;
+    border: 2px white;
     padding: 0px 160px 0px 160px;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+/*Para tener un margen minimo con los articulos*/
+article{
+    padding: 0% 1% 0% 1%;
+}
+
+h1{
+    padding: 0% 1% 0% 1%;
+}
+
+h2{
+    padding: 0% 1% 0% 1%;
 }
 
 /*Estructura para la recolección de contactos*/
 .Recov_data{
-    margin: 0 auto;
+    margin: auto;
     width: 350px;
     height: auto;
     background-color: rgb(209, 209, 209);
+    border-radius: 20px;
+}
+
+p{
+    margin: 20px 20px 0px 20px;
 }
 
 .Name_recov{
@@ -49,4 +76,18 @@ li{
     background-color: darkgrey;
     width: auto;
     height: auto;
+    padding-inline-end: 5px;
+}
+
+/*Para el footer*/
+
+footer{
+    padding: 2% 40% 2% 40%;
+    background-color: black;
+    margin:10px 0px 0px 10px;
+}
+
+.footer_text{
+    color: white;
+    display: flex;
 }
